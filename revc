@@ -1,0 +1,7 @@
+def reverse_comp(seq):
+    comp = {"A": "T", "T": "A", "C": "G", "G": "C"}
+    DNA_strand = " "
+    for nuc_base in seq[::-1]: #to reverse the result if comp[nuc_base] was not in the front
+        DNA_strand = DNA_strand + comp[nuc_base]
+    return DNA_strand
+print(reverse_comp(seq))
