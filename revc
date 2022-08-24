@@ -4,7 +4,7 @@ def reverse_comp(seq):
     for nuc_base in seq[::-1]: #to reverse the result if comp[nuc_base] was not in the front
         DNA_strand = DNA_strand + comp[nuc_base]
     return DNA_strand
-print(reverse_comp(seq))
+print(reverse_comp(" "))
 
 #or,
 
@@ -20,7 +20,7 @@ def reverse_comp(seq):
         if nuc_base == "G":
             strand += "C"
     return DNA_strand
-print(reverse_comp("ACCATTG"))
+print(reverse_comp(" "))
 
 #or, 
 
@@ -30,4 +30,4 @@ def reverse_comp(seq):
     for nuc_base in seq:
         DNA_strand = comp[nuc_base] + DNA_strand
     return DNA_strand
-print(reverse_comp("ACCATTG"))
+print(reverse_comp(" "))
