@@ -1,2 +1,2 @@
 # rosalind.info solutions
-[[REVC]](https://github.com/bakuncwa/rosalind_sol/blob/main/revc) Complementing a strand of DNA
+[[REVC]](https://github.com/bakuncwa/rosalind.info_sol/blob/main/revc.py) Complementing a strand of DNA
