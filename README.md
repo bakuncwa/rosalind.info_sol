@@ -3,6 +3,7 @@
 <p> <ul>
   <li><a href ="https://github.com/bakuncwa/rosalind.info_sol/blob/main/ini2.py"><b>[INI2]</b></a> Variables and Some Arithmetic</li>
   <li><a href ="https://github.com/bakuncwa/rosalind.info_sol/blob/main/ini4.py"><b>[INI4]</b></a> Conditionals and Loops</li>
+  <li><a href ="https://github.com/bakuncwa/rosalind.info_sol/blob/main/%23%20INI6.py"><b>[INI6]</b></a> Working with Dictionaries</li>
 </p> </ul>
 <h3><b>Bioinformatics Stronghold</b></h3>
 <p><ul>
