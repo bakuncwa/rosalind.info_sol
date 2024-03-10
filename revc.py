@@ -15,7 +15,7 @@ try:
     try:
         s = ros_f.readline().rstrip()
         if ros_f.count > 1000:
-            print("s must not be longer than 3000 characters.")
+            print("s must not be longer than 1000 bp.")
     except:
        DNA_strand = reverse_comp(s)
 except:
