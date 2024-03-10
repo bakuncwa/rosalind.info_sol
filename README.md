@@ -6,7 +6,7 @@
   <li><a href ="https://github.com/bakuncwa/rosalind.info_sol/blob/main/ini4.py"><b>[INI4]</b></a> Conditionals and Loops</li>
   <li><a href ="https://github.com/bakuncwa/rosalind.info_sol/blob/main/ini6.py"><b>[INI6]</b></a> Working with Dictionaries</li>
 </p> </ul>
-<h3><b>Bioinformatics Stronghold</b></h3>
+<h3><b>String Algorithms</b></h3>
 <p><ul>
   <li><a href ="https://github.com/bakuncwa/rosalind.info_sol/blob/main/revc.py"><b>[REVC]</b></a> Complementing a strand of DNA</li>
 </p></ul>
