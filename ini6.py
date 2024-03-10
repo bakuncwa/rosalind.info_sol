@@ -25,4 +25,4 @@ try:
         for k, v in dictCount.items():
             print(k,v)
 except:
-    print("File did not open correctly")
+    print("File did not open correctly.")
