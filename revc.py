@@ -18,5 +18,6 @@ try:
             print("s must not be longer than 1000 bp.")
     except:
        DNA_strand = reverse_comp(s)
+       print(DNA_strand)
 except:
     print("File did not open correctly.") 
