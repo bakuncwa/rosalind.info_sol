@@ -27,10 +27,6 @@ try:
         print(dna_count(s))
 except:
     "File did not open correctly."
-        
-
-
-
 
     
         
