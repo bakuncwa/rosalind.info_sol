@@ -11,4 +11,5 @@
   <li><a href ="https://github.com/bakuncwa/rosalind.info_sol/blob/main/dna.py"><b>[DNA]</b></a> Counting DNA Nucleotides</li>
   <li><a href ="https://github.com/bakuncwa/rosalind.info_sol/blob/main/rna.py"><b>[RNA]</b></a> Transcribing DNA to RNA</li>
   <li><a href ="https://github.com/bakuncwa/rosalind.info_sol/blob/main/revc.py"><b>[REVC]</b></a> Complementing a strand of DNA</li>
+  <li><a href ="https://github.com/bakuncwa/rosalind.info_sol/blob/main/fib.py"><b>[FIB]</b></a> Rabits and Recurrence Relations</li>
 </p></ul>
