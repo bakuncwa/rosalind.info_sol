@@ -12,7 +12,7 @@ def rna_strand(s):
 
 
 try:
-    ros_f = open("C:/Users/gyalm/Downloads/rosalind_rna.txt")
+    ros_f = open("C:/Users/ . . . /Downloads/rosalind_rna.txt")
     try:
         s = ros_f.readline().rstrip()
         if ros_f.count > 1000:
