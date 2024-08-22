@@ -10,9 +10,6 @@ def hypoteneuse (a, b):
         c_sq = pow(a, 2) + pow(b, 2)  
     return c_sq
 
-try:
-    ros_f = open("/Users/ . . /Downloads/rosalind_ini4.txt")
-    a, b = map(int, ros_f.readline().rstrip().rsplit())
-    print(hypoteneuse(a, b))
-except:
-    print("File did not open correctly.")
+ros_f = open("/Users/ . . /Downloads/rosalind_ini4.txt")
+a, b = map(int, ros_f.readline().rstrip().rsplit())
+print(hypoteneuse(a, b))
