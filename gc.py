@@ -42,7 +42,7 @@ def find_max_gc_content(filename):
     
     return max_gc_id, max_gc_content
 
-filename = "/Users/gyalm/Downloads/rosalind_gc.txt"
+filename = "/Users/ . . . /Downloads/rosalind_gc.txt"
 max_gc_id, max_gc_content = find_max_gc_content(filename)
 
 print(f"{max_gc_id}\n{max_gc_content:.6f}")
