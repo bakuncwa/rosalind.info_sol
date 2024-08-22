@@ -19,5 +19,5 @@ if ros_f.count > 3000:
     print("s must not be longer than 3000 characters.")
 
 dictCount = wordCount(s)
-    for k, v in dictCount.items():
-        print(k,v)
+for k, v in dictCount.items():
+    print(k,v)
