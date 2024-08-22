@@ -5,15 +5,6 @@
 def odd_total(a, b):
     return sum([i for i in range(a, b) if i % 2 == 1])
 
-try:
-    ros_f = open("/Users/ . . /Downloads/rosalind_ini4.txt")
-    a, b = map(int, ros_f.readline().rstrip().rsplit())
-    print(odd_total(a, b))
-except:
-    print("File did not open correctly.")
-
-
-
-            
-            
-             
+ros_f = open("/Users/ . . /Downloads/rosalind_ini4.txt")
+a, b = map(int, ros_f.readline().rstrip().rsplit())
+print(odd_total(a, b))
