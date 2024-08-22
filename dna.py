@@ -9,9 +9,9 @@
 # Return: Four integers (separated by spaces) counting the respective number of times that 
 # the symbols 'A', 'C', 'G', and 'T' occur in s.
 
-def dna_count(s):
+def dna_count(seq):
     comp = {"A": 0, "C": 0, "G":0, "T": 0}
-    for i in s:
+    for i in seq:
         if not i in comp:
             comp[i] = comp.get(i, 0) + 0    
         comp[i] = comp.get(i, 0) + 1
