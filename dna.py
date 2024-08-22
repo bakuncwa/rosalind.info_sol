@@ -18,8 +18,8 @@ def dna_count(seq):
     return comp
 
 ros_f = open("/Users/ . . . /Downloads/rosalind_dna.txt")
-s = ros_f.readline().rstrip()
+seq = ros_f.readline().rstrip()
 if ros_f.count > 1000:
     print("s must not exceed 1000 nt.")
 else:
-    print(dna_count(s))
+    print(dna_count(seq))
