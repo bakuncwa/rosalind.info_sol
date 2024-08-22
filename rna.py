@@ -12,9 +12,9 @@ def rna_strand(seq):
 
 
 ros_f = open("C:/Users/ . . . /Downloads/rosalind_rna.txt")
-s = ros_f.readline().rstrip()
+seq = ros_f.readline().rstrip()
 if ros_f.count > 1000:
     print("s must not be longer than 1000 nt.")
 else:
-    DNA_strand = rna_strand(s)
+    DNA_strand = rna_strand(seq)
     print(DNA_strand)
