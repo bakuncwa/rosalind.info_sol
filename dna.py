@@ -17,18 +17,9 @@ def dna_count(s):
         comp[i] = comp.get(i, 0) + 1
     return comp
 
-try:
-    ros_f = open("/Users/ . . . /Downloads/rosalind_dna.txt")
-    try:
-        s = ros_f.readline().rstrip()
-        if ros_f.count > 1000:
-            print("s must not exceed 1000 nt.")
-    except:
-        print(dna_count(s))
-except:
-    "File did not open correctly."
-
-    
-        
-        
-        
+ros_f = open("/Users/ . . . /Downloads/rosalind_dna.txt")
+s = ros_f.readline().rstrip()
+if ros_f.count > 1000:
+    print("s must not exceed 1000 nt.")
+else:
+    print(dna_count(s))
