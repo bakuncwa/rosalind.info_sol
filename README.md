@@ -12,4 +12,5 @@
   <li><a href ="https://github.com/bakuncwa/rosalind.info_sol/blob/main/rna.py"><b>[RNA]</b></a> Transcribing DNA to RNA</li>
   <li><a href ="https://github.com/bakuncwa/rosalind.info_sol/blob/main/revc.py"><b>[REVC]</b></a> Complementing a strand of DNA</li>
   <li><a href ="https://github.com/bakuncwa/rosalind.info_sol/blob/main/fib.py"><b>[FIB]</b></a> Rabits and Recurrence Relations</li>
+  <li><a href ="https://github.com/bakuncwa/rosalind.info_sol/blob/main/gc.py"><b>[GC]</b></a> Computing GC Content</li>
 </p></ul>
