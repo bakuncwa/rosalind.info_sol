@@ -8,11 +8,8 @@
 def strSlice(s, a, b, c, d):
     return s[a:b+1], s[c:d+1]
 
-try:
-    ros_f = open("/Users/ . . . /Downloads/rosalind_ini3.txt")
-    s = ros_f.readline().rstrip()
-    a, b, c, d = map(int, ros_f.readline().rstrip().rsplit())
-    sp1, sp2 = strSlice(s, a, b, c, d)
-    print(sp1, sp2)
-except:
-    print("File did not open correctly")
+ros_f = open("/Users/ . . . /Downloads/rosalind_ini3.txt")
+s = ros_f.readline().rstrip()
+a, b, c, d = map(int, ros_f.readline().rstrip().rsplit())
+sp1, sp2 = strSlice(s, a, b, c, d)
+print(sp1, sp2)
