@@ -11,14 +11,10 @@ def rna_strand(s):
     return DNA_strand
 
 
-try:
-    ros_f = open("C:/Users/ . . . /Downloads/rosalind_rna.txt")
-    try:
-        s = ros_f.readline().rstrip()
-        if ros_f.count > 1000:
-            print("s must not be longer than 1000 nt.")
-    except:
-       DNA_strand = rna_strand(s)
-       print(DNA_strand)
-except:
-    print("File did not open correctly.") 
+ros_f = open("C:/Users/ . . . /Downloads/rosalind_rna.txt")
+s = ros_f.readline().rstrip()
+if ros_f.count > 1000:
+    print("s must not be longer than 1000 nt.")
+else:
+    DNA_strand = rna_strand(s)
+    print(DNA_strand)
