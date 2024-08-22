@@ -10,14 +10,10 @@ def reverse_comp(s):
         DNA_strand += comp[nuc_base]
     return DNA_strand
 
-try:
-    ros_f = open("/Users/. . . /Downloads/rosalind_revc.txt")
-    try:
-        s = ros_f.readline().rstrip()
-        if ros_f.count > 1000:
-            print("s must not be longer than 1000 bp.")
-    except:
-       DNA_strand = reverse_comp(s)
-       print(DNA_strand)
-except:
-    print("File did not open correctly.") 
+ros_f = open("/Users/. . . /Downloads/rosalind_revc.txt")
+s = ros_f.readline().rstrip()
+if ros_f.count > 1000:
+    print("s must not be longer than 1000 bp.")
+else:
+    DNA_strand = reverse_comp(s)
+    print(DNA_strand)
