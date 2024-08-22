@@ -2,10 +2,10 @@
 # Given: A DNA string t having length at most 1000 nt
 # Return: The transcribed RNA string of t
 
-def rna_strand(s):
+def rna_strand(seq):
     rna = {"A": "A", "T": "U", "C": "C", "G": "G"}
     DNA_strand = " "
-    for nuc_base in s:
+    for nuc_base in seq:
         rna[nuc_base] = rna.get(nuc_base, 0)
         DNA_strand += rna[nuc_base]
     return DNA_strand
