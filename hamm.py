@@ -12,7 +12,7 @@ def hamming_distance(s, t):
         idx +=1
     return dist
 
-ros_f = open("/Users/gyalm/Downloads/rosalind_hamm.txt")
+ros_f = open("/Users/ . . . /Downloads/rosalind_hamm.txt")
 s = ros_f.readline().rstrip()
 t = ros_f.readline().rstrip()
 print(hamming_distance(s,t))
