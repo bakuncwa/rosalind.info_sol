@@ -14,4 +14,5 @@
   <li><a href ="https://github.com/bakuncwa/rosalind.info_sol/blob/main/fib.py"><b>[FIB]</b></a> Rabits and Recurrence Relations</li>
   <li><a href ="https://github.com/bakuncwa/rosalind.info_sol/blob/main/gc.py"><b>[GC]</b></a> Computing GC Content</li>
   <li><a href ="https://github.com/bakuncwa/rosalind.info_sol/blob/main/hamm.py"><b>[HAMM]</b></a> Counting Point Mutations</li>
+  <li><a href ="https://github.com/bakuncwa/rosalind.info_sol/blob/main/iprb.py"><b>[IPRB]</b></a> Mendel's First Law</li>
 </p></ul>
