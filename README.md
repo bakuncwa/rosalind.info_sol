@@ -15,4 +15,5 @@
   <li><a href ="https://github.com/bakuncwa/rosalind.info_sol/blob/main/gc.py"><b>[GC]</b></a> Computing GC Content</li>
   <li><a href ="https://github.com/bakuncwa/rosalind.info_sol/blob/main/hamm.py"><b>[HAMM]</b></a> Counting Point Mutations</li>
   <li><a href ="https://github.com/bakuncwa/rosalind.info_sol/blob/main/iprb.py"><b>[IPRB]</b></a> Mendel's First Law</li>
+  <li><a href ="https://github.com/bakuncwa/rosalind.info_sol/blob/main/prot.py"><b>[PROT]</b></a> Translating RNA into protein</li>
 </p></ul>
